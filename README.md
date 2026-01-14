@@ -30,11 +30,14 @@ This project uses machine learning techniques to predict corporate bankruptcy ri
   - Test set: 2,905 records
   - Validation set: 2,626 records
 
-### 3. Logistic Regression Models
+### 3. Models
 - Base logistic regression model
 - L1-regularized logistic regression model
 - Cross-validation for optimal regularization parameter (C=0.017)
 - Class weight balancing
+- KNN
+- Decision tree
+- Random Forest
 
 ### 4. Feature Selection
 Automatic feature selection via L1 regularization identified 22 key financial indicators including:
